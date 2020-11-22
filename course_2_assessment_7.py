@@ -47,7 +47,7 @@ def checkingIfIn(a, direction = True, d = {'apple': 2, 'pear': 1, 'fruit': 19, '
             return False
     else:
         if a not in d:
-            return TrueA
+            return True
         else:
             return d[a]
 
